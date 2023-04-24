@@ -9,11 +9,14 @@
 
 # Comparison operators
 
-name = input("Enter your name: ")
+"""name = input("Enter your name: ")
 
 if len(name) < 3:
     print('Name must be at least 3 characters long')
 elif len(name) > 50:
     print('Name can be a maximum of 50 characters')
 else:
-    print('Name looks good')
+    print('Name looks good')"""
+
+prices = [10, 20, 30, 40]
+print(len(prices))
