@@ -20,3 +20,8 @@ try:
     std1.grade = "A"
 except Exception as e:
     print("[{}] {}".format(e.__class__.__name__, e))
+
+try:
+    setattr(std1, "height_in_cm", 171.2)
+except Exception as e:
+    print("Can't set attributes dynamically either")
